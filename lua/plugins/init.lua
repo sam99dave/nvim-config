@@ -4,5 +4,6 @@ return {
     require("plugins.telescope"), -- This should be loaded before snacks as snacks uses it.
     require("plugins.snacks"),
     require("plugins.rose-pine"),
-    require("plugins.lualine")
+    require("plugins.lualine"),
+    require("plugins.copilot")
 }
