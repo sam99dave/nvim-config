@@ -16,7 +16,8 @@ return {
             require("mason-lspconfig").setup({
                 ensure_installed = {
                     "pyright",
-                    "lua_ls"
+                    "lua_ls",
+                    "gopls"
                 },
                 automatic_installation = true,
             })
@@ -40,6 +41,19 @@ return {
                         diagnostics = {globals = {"vim"}}
                     }
                 }
+            })
+
+            -- golang lsp
+            lspconfig.gopls.setup({
+                settings = {
+                    gopls = {
+                        analyses = {
+                            unusedparams = true,
+                        },
+                        staticcheck = true,
+                        gofumpt = true,
+                    },
+                },
             })
 
             -- python lsp

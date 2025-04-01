@@ -5,5 +5,7 @@ return {
     require("plugins.snacks"),
     require("plugins.rose-pine"),
     require("plugins.lualine"),
-    require("plugins.copilot")
+    require("plugins.copilot"),
+    require("plugins.surround"),
+    require("plugins.avante")
 }
