@@ -1,4 +1,3 @@
-import os
 import random
 
 #TODO: todo
@@ -7,18 +6,25 @@ import random
 #Just a comment
 def func(a, b):
     """
-    Add two numbers plus a third value.
+    Add two numbers.
     
     Args:
         a: First number to add
         b: Second number to add
         
     Returns:
-        The sum of a, b, and c
+        The sum of a and b
     """
     random.randint(2, 2)
-    return a + b + c
+    return a + b
 
 
-func(1, 2)
+if __name__ "__main__":
+    # Test the function
+    result = func(2, 3)
+    print(f"The sum is: {result}")
+    
+    
+    
+
 
