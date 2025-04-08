@@ -7,4 +7,6 @@ return {
     require("plugins.lualine"),
     require("plugins.copilot"),
     require("plugins.surround"),
+    require("plugins.avante"),
+    require("plugins.debugger"),
 }

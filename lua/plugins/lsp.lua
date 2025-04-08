@@ -38,7 +38,10 @@ return {
             lspconfig.lua_ls.setup({
                 settings = {
                     Lua = {
-                        diagnostics = {globals = {"vim"}}
+                        diagnostics = {
+                            globals = {"vim"},
+                            -- disable = { "err-eq-as-assign" },
+                        }
                     }
                 }
             })

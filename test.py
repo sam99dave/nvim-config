@@ -19,7 +19,7 @@ def func(a, b):
     return a + b
 
 
-if __name__ "__main__":
+if __name__ == "__main__":
     # Test the function
     result = func(2, 3)
     print(f"The sum is: {result}")
