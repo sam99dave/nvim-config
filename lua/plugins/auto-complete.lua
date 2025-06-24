@@ -23,6 +23,8 @@ return {
                     { name = "buffer" }, -- Use buffer source
                     { name = "path" }, -- Use path source
                     { name = "luasnip" }, -- Use snippet source
+                    -- { name = "supermaven" }, -- Use supermaven
+
                 },
             })
         end,
