@@ -19,7 +19,20 @@ def func(a, b):
     return a + b
 
 
-if __name__ == "__main__":
+def add(x, y):
+    """
+    Add two numbers.
+    Args:
+        x: First number to add
+        y: Second number to add
+        
+    Returns:
+        The sum of x and y
+    """
+
+    return x + y
+
+if __name__ == "__main__":    
     # Test the function
     result = func(2, 3)
     print(f"The sum is: {result}")
