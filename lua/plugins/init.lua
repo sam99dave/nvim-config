@@ -9,4 +9,5 @@ return {
     require("plugins.surround"),
    -- require("plugins.avante"),
     require("plugins.debugger"),
+    require("plugins.harpoon"),
 }
